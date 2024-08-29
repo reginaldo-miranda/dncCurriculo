@@ -6,9 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/f48343b6a3.js" crossorigin="anonymous"></script> 
+   
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/f48343b6a3.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/f48343b6a3.js" crossorigin="anonymous"></script>
     <style>
         #cabecalho{
             background-color:burlywood;
@@ -34,6 +36,14 @@
         h1, h2{
             margin: 0px;
         }
+
+        #ulcontato{
+            list-style-type: none;
+        }
+        #ulcontato i {
+            width: 30px;
+            color: burlywood;
+        }
     </style>
 </head>
 <body>
@@ -46,20 +56,47 @@
     </div>
     <div id="container">
         <div id="sidebar">
-            <div class="card">
+            <div class="card" >
                 <h3>contato</h3>
-                <ul>
-                    <li><i class="fa-solid fa-envelope"></i>regi@gmail.com</li>
-                    <li><i class="fa-solid fa-phone"></i> 971715464</li>
-                    <li><i class="fa-solid fa-location-pin"></i> Sao Paulo SP</li>
+                <ul id="ulcontato">
+                    <li><i class="fa fa-envelope"></i>   regi@gmail.com</li>
+                    <li><i class='fa fa-phone'></i> 971715464</li>
+                    <li><i class="fa fa-location-arrow"></i> Sao Paulo SP</li>
+                </ul>
+            </div>
+            <div class="card" >
+                <h3>Skill</h3>
+                <ul id="">
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
                 </ul>
             </div>
         </div>
-        <div id="conteudo"></div>
-
+        <div id="conteudo">
+            <div class="card">
+                <h3>Sobre mim</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet sem purus. Vestibulum lacus nisl, porttitor ac risus id, dapibus egestas nibh. Nunc posuere mollis metus, rutrum viverra nibh luctus id. In pretium, risus ege
+                </p>
+            </div>
+            <div class="card">
+                <h3>Experiencias Profissionais</h3>
+                <p>
+                    <b>Americans - dez/20 a fev/22 </b><br>
+                    Lorem ipsum dolor sit amet
+                    <ul>
+                        <li>Engenheiro Senior de sofeware</li>
+                        <li>Engenheiro pleno de sofeware</li>
+                    </ul>
+                </p>    
+            </div>
+        </div>
+        
     </div>
-
-    
-    
+   
+<!--<i class="fa fa-car" style="font-size:48px;"></i><br> ->
+<i class="fa fa-car" <!--style="font-size:60px;color:red;"></i></i>>teste</i> -->
+  
 </body>
 </html>
