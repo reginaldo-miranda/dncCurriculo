@@ -1,0 +1,53 @@
+#cabecalho{
+    background-color:burlywood;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", cursive;
+         
+}
+
+#nomeTitulo{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nometitulo h1, h2, h3{
+    margin: 0;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+h1, h2{
+    margin: 0px;
+}
+
+#ulcontato{
+    list-style-type: none;
+}
+#ulcontato i {
+    width: 30px;
+    color: burlywood;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+
+#sidebar, #conteudo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3{
+    font-family: "Hubballi", cursive;
+}
+.card{
+ font-family: Montserrat;
+ border: 1px solid #eaeaeaea;
+ border-radius: 15px;
+ padding: 20px;
+}
